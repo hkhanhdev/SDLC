@@ -1,0 +1,9 @@
+
+5. Thêm trang thanh toán
+
+
+
+
+
+
+$sql = "select ord_id,customer_id,count(ord_amount) as so_luong_san_pham from tbl_order group by customer_id;"
